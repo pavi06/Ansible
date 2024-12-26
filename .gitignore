@@ -1,0 +1,30 @@
+# Ignore Ansible temporary files
+*.retry
+
+# Ignore SSH key files
+*.pem
+*.key
+
+# Ignore Ansible vault files
+*.vault
+
+# Ignore inventory files
+inventory
+
+# Ignore roles and collections downloaded from Galaxy
+roles/
+collections/
+
+# Ignore logs
+*.log
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode files
+.vscode/
